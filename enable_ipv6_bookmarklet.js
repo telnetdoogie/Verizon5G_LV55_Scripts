@@ -1,0 +1,1 @@
+javascript:(window.location.href.includes("cgi-bin/luci/verizon/system_settings") && document.querySelector("#lan-and-firewall-modal-body").offsetParent!=null) ? document.querySelector("#lan-and-firewall-modal-body > div.row.m-t-xl > div:nth-child(1)").style.display=null : alert('First go to System Settings | LAN Settings in the modem\'s admin UI');
