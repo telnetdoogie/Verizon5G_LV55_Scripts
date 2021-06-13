@@ -8,3 +8,7 @@ Useful scripts for the LV55 Verizon 5G Home Internet Gateway
 - Copy this javascript code and paste it into the browser's console when on the modem's admin home page to switch the device to Bridge Mode.
 - Once the modem restarts, you'll need to find your Public IP and access the admin UI for the modem at http://{PublicIp + 1} or http://{PublicIp -1}.
 - Try hitting https://api.ipify.org/ in a browser to see your public IP.
+
+[Query Modem Parameters](/query_modem_params.js)
+- Enter this into your browser's console when in the modem's Admin UI, and you can pass Modem config objects to browse their settings.
+- The TR-069 Object Model is documented [here](https://cwmp-data-models.broadband-forum.org/tr-181-2-14-1-cwmp.html)
