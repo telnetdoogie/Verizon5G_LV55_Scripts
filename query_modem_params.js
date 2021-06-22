@@ -21,5 +21,5 @@ function readParams(objectName){
 //examples:
 readParams("Device.Firewall.");
 readParams("Device.DeviceInfo");
-readParams("Device.DeviceInfo");
+readParams("Device.IP.Interface");
 readParams("Device.DHCPv6.Server.");
