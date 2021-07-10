@@ -23,3 +23,4 @@ readParams("Device.Firewall.");
 readParams("Device.DeviceInfo");
 readParams("Device.IP.Interface");
 readParams("Device.DHCPv6.Server.");
+readParams("Device.Cellular.Interface.1."); // current cellular info. Look for "CurrentAccessTechnology" for current mode (5G, LTE)
