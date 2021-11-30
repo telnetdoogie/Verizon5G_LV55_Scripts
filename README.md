@@ -3,7 +3,7 @@ Useful scripts for the LV55 Verizon 5G Home Internet Gateway
 
 [Enable IPv6 Bookmarklet](/enable_ipv6_bookmarklet.js)
 - Add this script as a bookmarklet in your browser to enable the IPv6 settings in System Settings | LAN Settings on the LV55.
-- Note: The LV55 will only provide clients with a /128 IPv6 address. Verizon 5G and this gateway does not currently support even a /64 and/or Prefix Delegation.
+- Note: The LV55 will only provide clients with a /128 (single) IPv6 address. Verizon 5G and this gateway does not currently support even a /64 and/or Prefix Delegation.
 
 [Switch to Bridge Mode](/switch_to_bridge_mode.js) 
 - Copy this javascript code and paste it into the browser's console when on the modem's admin home page to switch the device to Bridge Mode.
