@@ -1,4 +1,4 @@
-//you should make sure this is the radio the EX SSID is running on first by digging through:
+//you should make sure `Radio.4.` is the radio the EX SSID is running on first by digging through:
 function readParams(objectName){
   WNC.DM.get({
       args: {
