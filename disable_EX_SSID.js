@@ -13,6 +13,11 @@ function readParams(objectName){
   })
 }
 
+readParams("Device.WiFi.Radio.");
+//and
+readParams("Device.WiFi.SSID.");
+
+
 //then once you've confirmed, use the below with the correct radio number.
 WNC.DM.set({
   args: {
